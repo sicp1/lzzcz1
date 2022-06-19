@@ -12,6 +12,8 @@
 
 			<span>talk</span>
 		<input type="text" name="comment" id="txt">
+		<br />
+		Username: <input type="text" name="usr" id="usrname">
 		<br>
 		<input type="submit" onclick="sendmessage()">
 
@@ -22,8 +24,9 @@
     <script>
         socket=new WebSocket("ws://127.0.0.1:8000/room/123/");
         function sendmessage(){
-            let tag=document.getElementById("txt")
-            socket.send(tag.value);
+            let tag=document.getElementById("txt");
+	    let usrn=document.getElementById("usrname");
+            socket.send(usrn + ": " + tag.value);
         }
         socket.onmessage=function(event){
             let tag=document.createElement("div");
