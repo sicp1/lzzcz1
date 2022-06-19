@@ -26,7 +26,7 @@
         function sendmessage(){
             let tag=document.getElementById("txt");
 	    let usrn=document.getElementById("usrname");
-            socket.send(usrn + ": " + tag.value);
+            socket.send(usrn.value + ": " + tag.value);
         }
         socket.onmessage=function(event){
             let tag=document.createElement("div");
