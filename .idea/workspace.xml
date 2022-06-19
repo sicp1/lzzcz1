@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68526b6a-a9f4-4a4b-a48a-a102d12ed060" name="Changes" comment="" />
+    <list default="true" id="68526b6a-a9f4-4a4b-a48a-a102d12ed060" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,8 +101,16 @@
       <workItem from="1655626676826" duration="824000" />
       <workItem from="1655627516017" duration="55000" />
       <workItem from="1655627838747" duration="79000" />
-      <workItem from="1655627925192" duration="326000" />
+      <workItem from="1655627925192" duration="711000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1655628369448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655628369448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
